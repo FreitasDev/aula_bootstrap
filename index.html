@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Minha Página</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light
+		">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" width="120" height="80" alt="FreitasTI">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Conteudo" aria-expanded="false" aria-label="Alterna navegação">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#quem-sou">Quem sou<span class="sr-only">(pagina atual)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projetos"> Projetos <span class="sr-only">(pagina atual)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contato"> Contato <span class="sr-only">(pagina atual)</span></a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<section id="quem-sou">
+			<div class="container-fluid quem-sou text-center margin">
+				<h3 class="margin">Quem Sou</h3>
+				<img src="img/perfil.png" class="rounded-circle margin" width="400" height="400">
+				<h3>Sou ...</h3>
+			</div>
+			
+		</section>
+		<section id="projetos">
+			<div class="container-fluid text-center margin projetos">
+				<h3 class="margin">Projetos</h3>
+				<div class="container margin">
+					<div class="row">
+						<div class="col-lg-4">
+							<h4>Websites responsivos</h4>
+							<img src="img/website-developer.jpeg" width="100%">
+							<p class="margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et augue vitae tortor tincidunt dictum. Suspendisse bibendum dolor ac orci vulputate, bibendum. Morbi vel fringilla ligula. Duis feugiat ac augue a eleifend.</p>
+						</div>
+						<div class="col-lg-4">
+							<h4>Sistemas</h4>
+							<img src="img/sistemas-dados.jpeg"  width="100%">
+							<p class="margin">Curabitur metus risus, sodales sed lacus eu, commodo placerat dui. Duis ultricies lorem vel libero consequat efficitur. Morbi vel fringilla ligula. Duis feugiat ac augue a eleifend.</p>
+						</div>
+						<div class="col-lg-4">
+							<h4>Soluções multiplataforma</h4>
+							<img src="img/mobile.jpeg" width="100%" height="233">
+							<p class="margin">Ut ut posuere purus, ut bibendum nulla. Vestibulum blandit nunc sit amet magna dictum tincidunt. Praesent lacinia justo ac mauris porta, sed consectetur tellus egestas.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<section id="contato">
+			<div class="container margin">
+				<h3 class="margin">Contato</h3>
+				<div class="row">
+				    <div class="col-sm-5">
+				      <p>Contact us and we'll get back to you within 24 hours.</p>
+				      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+				      <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
+				      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+				    </div>
+
+				    <div class="col-sm-7 slideanim">
+      					
+						<form>
+						<div class="form-row">
+							<div class="form-group col-sm-6">
+								<label for="nome">Nome</label>
+								<input type="text" class="form-control" id="nome" placeholder="Primeiro Nome" required>
+							</div>
+							<div class="form-group col-sm-6">
+								<label for="nome">Sobrenome</label>
+								<input type="text" class="form-control" id="nome" placeholder="Sobrenome" required>
+							</div>
+							<div class="form-group col-md-6">
+								<label for="email">E-mail</label>
+								<input type="email" class="form-control" id="email" placeholder="seuemail@email.com" required>
+								<div class="invalid-feedback">
+	                Por favor, insira um endereço de e-mail válido, para atualizações de entrega.
+	              				</div>
+	              				<div class="margin">
+	              				<label for="story">Comentário</label>
+	              				 <textarea class="form-control col-md-6" id="comentario" name="comentario" placeholder="Deixe sua mensagem" rows="5"></textarea>
+	              				
+	              				<br>
+						        <div class="row">
+						        <div class="col-sm-12 form-group">
+						          <button class="btn btn-default pull-right" type="submit">Enviar</button>
+						      </div>
+							</div>
+
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+	</body>
+		
