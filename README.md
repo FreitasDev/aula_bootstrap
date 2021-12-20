@@ -1,3 +1,3 @@
-# aula_bootstrap
-Utilizando Bootstrap
-Neste projeto será feito um site simples, formato one-page usando o bootstrap.
+# Aula Bootstrap
+
+<p align="center">Neste projeto será feito um Website simples usando o Bootstrap.</p>
